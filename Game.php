@@ -44,7 +44,7 @@
 
 
     <h2>Ready to play??</h2>
-    <form action="index.php" method="get">
+    <form action="index.php" method="post">
         <input type="hidden" name="action" value="process_game">
 
         <label>User bet:</label>

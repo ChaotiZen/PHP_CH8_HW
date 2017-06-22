@@ -11,12 +11,12 @@ $AmountWon = 0.0;
 
 //take action based on variable in POST array
 //todo move all to POST!!!!!!!!!!!!
-$action = filter_input(INPUT_GET, 'action');
+$action = filter_input(INPUT_POST, 'action');
 
 switch ($action)
 {
     case 'process_game':
-        $userBet = filter_input(INPUT_GET, 'userBet',
+        $userBet = filter_input(INPUT_POST, 'userBet',
                 FILTER_VALIDATE_FLOAT);
 
         if (!is_numeric($userBet)||($userBet <= 0))

@@ -5,7 +5,7 @@
       <paths name="XAMPP Apache">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="CH7and8HW_DiceGame" local="$PROJECT_DIR$" web="/index.php" />
           </mappings>
         </serverdata>
       </paths>
