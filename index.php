@@ -10,6 +10,7 @@ $userBetError = "";
 $AmountWon = 0.0;
 
 //take action based on variable in POST array
+//todo move all to POST!!!!!!!!!!!!
 $action = filter_input(INPUT_GET, 'action');
 
 switch ($action)
